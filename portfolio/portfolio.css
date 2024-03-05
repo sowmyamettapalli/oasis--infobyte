@@ -1,0 +1,174 @@
+ :root{
+      background-color:black;
+      box-shadow: 0px 0px 5px var(--btn-color);
+      color:white;
+      
+ }
+
+body{
+    margin:0;
+    background-color: var(--btn-color);
+    
+    font-size: 30px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin:0 auto;
+    margin-top: 20px;
+   /* border-bottom: 1px solid  #EA1179 ;*/
+   
+
+}
+.header_menu{
+    box-shadow: 0px 15px 10px -15px  cadetblue;;
+}
+.logo{
+    color:var(--color);
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+.logo label{
+    color: cadetblue;;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+nav ul a{
+    color:var(--color);
+    text-decoration: none;
+    transition: all .8s;
+}
+nav ul a:hover{
+    color: cadetblue;;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+   
+    display:flex;
+
+    height:90vh;
+    align-items: center;
+}
+.container .left{
+    min-height: 20px;
+    width: 20px;
+    width: 50%;
+    padding-left:200px;
+    padding-top: 400px;
+}
+    
+    
+    
+    
+    
+
+
+.container .right{
+    color:white;
+    width:50%;
+    letter-spacing: 2px; 
+    height:20px;
+       
+}
+.container .right h1{
+    margin:0;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-shadow: 1px 1px white;
+    
+    
+    
+    
+}
+.container .right p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+
+}
+.right .para{
+    font-family: "Montserrat", sans-serif;
+}
+.container .right .sub_title{
+    color: cadetblue;;
+    height: 5px;
+    letter-spacing: 2px;
+    width: 5px;
+}
+button{
+    background-color:  cadetblue;;
+    border:none;
+    width:200px;
+    height:40px;
+    border-radius: 20px;
+    font-weight: 600;
+    color:black;
+    font-size:30px ;
+
+}
+button:hover{
+    color:white;
+}
+.container1{
+padding:70px;
+text-align: center;
+}
+.abt-h1{
+    font-family: "Montserrat", sans-serif;
+    color: cadetblue;
+    letter-spacing: 2px;
+    font-size: 80px;
+    font-style:inherit;
+    padding-top:100px;
+    
+
+}
+.container-sub-cont{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.ed-h1{
+    color: cadetblue;
+    text-align: center;
+    
+    
+    
+}
+.contact{
+    text-align: center;
+    color:cadetblue;
+
+}
+.design{
+    font-family: "Montserrat", sans-serif;
+    color: cadetblue;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.social-icon img{
+    height: 60px;
+    
+}
+
+
+
+
+
+
+
+
+  
+
+
